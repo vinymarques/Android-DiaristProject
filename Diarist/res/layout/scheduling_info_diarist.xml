@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/linear1_info"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/black_white"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/name_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/price_info"
+            android:layout_alignTop="@+id/image_info"
+            android:text="@string/name_label"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/price_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name_info"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/image_info"
+            android:text="@string/price_label"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/image_info"
+            android:layout_width="40dp"
+            android:layout_height="55dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/black"
+            android:contentDescription="@string/Description_add"
+            android:src="@drawable/add_image" />
+
+     
+
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pagerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        </android.support.v4.view.ViewPager>
+        
+      
+
+</LinearLayout>

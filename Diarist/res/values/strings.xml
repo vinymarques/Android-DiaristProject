@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Diarist</string>
+    <string name="login">Login</string>
+    <string name="logon">Logon</string>
+    <string name="login_r">*Login</string>
+    <string name="pass_r">*Password</string>
+    <string name="confirm_pass_r">*Confirm yor password</string>
+	<string name="s_return"> Return </string>
+	<string name="new_diarist">New Diarist</string>
+	<string name="register">Register</string>
+	<string name="register_account">New Account</string>
+	<string name="account">*Account</string>
+	<string name="mail">E-mail</string>
+	<string name="phone">*Phone</string>
+	<string name="cpf">CPF</string>
+	<string name="sex">Sex</string>
+	<string name="name">*Name</string>
+	<string name="price">*Price per hour</string>
+	<string name="address">*Address</string>
+	<string name="state">State</string>
+	<string name="city">City</string>
+	<string name="takePc">Take a picture</string>
+	<string name="take">Take</string>
+	<string name="search">Search</string>
+	<string name="searchs">..</string>
+	<string name="digital_clock">DigitalClock</string>
+	<string name="photo_name">Photo and Name</string>
+	
+	<string name="Alter">Alter</string>
+	<string name="Description_add">Imagem</string>
+	<string name="add">Add</string>
+	<string name="information">Information</string>
+	<string name="information_text">\tThis software was built with the purpose to enhance and utilize the knowledge obtained about the Android Development. \n
+	    \tBasically we seek, we schedule and evaluate diarists.</string>	
+	<string name="large">Large Text</string>
+	<string name="menu">menu</string>
+	<string name="agendamento">Scheduling</string>
+	<string name="agendamentos">Schedulings</string>
+	<string name="new_scheduling">New Scheduling</string>
+	<string name="new_user">New User</string>
+	<string name="avaliar">Evaluate</string>
+	<string name="logoff">Log Off</string>
+	<string name="photo">Photo</string>
+	<string name="info">Info</string>
+	<string name="phone_label">Phone</string>
+	<string name="name_label">Name</string>
+	<string name="price_label">Price per hour</string>
+	<string name="select_day_scheduling">Select the Day for scheduling</string>
+	
+</resources>

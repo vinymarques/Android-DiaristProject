@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.rubyth.diarist"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	   
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="br.com.rubyth.diarist.Diarist"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity  
+            android:name=".NewDiarist"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait"
+            android:label="@string/new_diarist">
+        </activity>
+        <activity  
+            android:name=".Menu"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait"
+            android:label="@string/menu">
+        </activity>
+        <activity  
+            android:name=".Scheduling"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait"
+            android:label="@string/new_scheduling">
+        </activity>
+         <activity  
+            android:name=".SchedulingNewDate"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait"
+            android:label="@string/agendamento">
+        </activity>
+        <activity  
+            android:name=".ConsultSchedulings"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="portrait"
+            android:label="@string/agendamentos">
+        </activity>
+        <activity  
+            android:name=".Register"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait"
+            android:label="@string/register">
+        </activity>
+        <activity  
+            android:name=".Info"
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="portrait"
+            android:label="@string/information">
+        </activity>
+        <activity  
+            android:name=".AlterUser"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait"
+            android:label="@string/information">
+        </activity>
+    </application>
+</manifest>

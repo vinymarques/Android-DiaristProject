@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="white">#FFFAFA</color>
+    <color name="btn_color">#6CA6CD</color>
+    
+    <color name="red">#FF0000</color>
+    <color name="orange">#FF7F00</color>
+    <color name="orange_red">#FF2400</color>
+    <color name="black">#000000</color>
+    <color name="black_white">#333333</color>
+    <color name="black_white_w">#666666</color>
+    <color name="black_white_ww">#696969</color>
+    <color name="transparent">#80000000</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#33ff33</color>
+    <color name="blue">#000099</color>
+    
+    <color name="red_dark">#6CA6CD</color>
+    <color name="dim_grey">#545454</color>
+    <color name="bg_view">#36648B</color>
+    <color name="bg_view1">#2F4F4F</color>
+    <color name="bg_view0">#9AFF9A</color>
+    
+    
+    <color name="red_low">#CD5C5C</color>
+    <color name="font_menu">#FFCC33</color>
+    <color name="font_btn_menu">#F0FFFF</color>
+    <color name="light_blue">#C0D9D9</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="blue_glaring">#3366FF</color>
+    
+    <color name="light_grey">#D3D3D3</color>
+    
+    <color name="frame">#EEE5DE</color>
+    <color name="tela_blue">#1E90FF</color>
+    <color name="tela_grey">#BEBEBE</color>
+    <color name="symptom_color_selected">#003366</color>
+	<color name="reaction_color_selected">#003366</color>
+	<color name="static_text_color">#003366</color>
+	<color name="journal_entry_listitem_text_color">#003366</color>
+	<color name="note_text_disabled">#333333</color>
+</resources>
